@@ -1,0 +1,15 @@
+<a href = '/'><h1> Graphics Interchange Format (GIF) </h1> </a>
+<%= form_tag(graphics_path, method: 'get') do %>
+  <%= text_field_tag :search %>
+  <%= submit_tag 'Search' %> No. of Searches <%= @count %>
+<% end %>
+
+</br>
+</br>
+</br>
+
+<table>
+    <%= display_helper(@result).html_safe %>
+</table>
+
+
