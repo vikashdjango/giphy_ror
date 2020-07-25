@@ -1,12 +1,12 @@
 # README
 
-# Bundle Install
-# Rake db:create
-# Rake db:migrate
+# bundle install
+# rake db:create
+# rake db:migrate
 # rails g controller graphics 
 # rails g model search
-# rake db migrate
-# rake db seed
+# rake db:migrate
+# rake db:seed
 # rails s 
 
 This README would normally document whatever steps are necessary to get the
